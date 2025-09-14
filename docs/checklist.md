@@ -1,0 +1,65 @@
+# Миграция страниц
+
+- [x] Add-ons
+- [ ] Automation
+- [ ] Automation/Configuration
+- [ ] Automation/Database
+- [ ] Automation/Database/Actions
+- [ ] Automation/Database/Conditions
+- [ ] Automation/Database/Triggers
+- [ ] Automation/Installation
+- [ ] Automation/Installation/APT
+- [ ] Automation/Installation/Compilation
+- [ ] Automation/Installation/Docker
+- [ ] Automation/Installation/OPKG
+- [ ] Automation/Patterns
+- [ ] Cloud
+- [ ] Cloud/Configuration
+- [ ] Cloud/Installation
+- [ ] Cloud/Installation/APT
+- [ ] Cloud/Installation/Compilation
+- [ ] Cloud/Installation/Docker
+- [ ] Cloud/Installation/OPKG
+- [x] Common/Exposes
+- [x] Common/Options
+- [x] Common/Topics
+- [ ] Custom
+- [ ] Custom/Configuration
+- [ ] Custom/Database
+- [ ] Custom/Database/Bindings
+- [ ] Custom/Installation
+- [ ] Custom/Installation/APT
+- [ ] Custom/Installation/Compilation
+- [ ] Custom/Installation/Docker
+- [ ] Custom/Installation/OPKG
+- [x] HOMEd
+- [ ] Hardware/HOMEd Gateway Nano
+- [ ] Hardware/HOMEd Gateway Pico
+- [ ] Lua
+- [ ] Modbus
+- [ ] Modbus/Database
+- [ ] Modbus/Database/Items
+- [ ] Recorder
+- [ ] Recorder/Configuration
+- [ ] Recorder/Installation
+- [ ] Recorder/Installation/APT
+- [ ] Recorder/Installation/Compilation
+- [ ] Recorder/Installation/Docker
+- [ ] Recorder/Installation/OPKG
+- [ ] Web
+- [ ] Web/Configuration
+- [ ] Web/Installation
+- [ ] Web/Installation/APT
+- [ ] Web/Installation/Compilation
+- [ ] Web/Installation/Docker
+- [ ] Web/Installation/OPKG
+- [x] ZigBee
+- [x] ZigBee/Configuration
+- [ ] ZigBee/Devices
+- [x] ZigBee/Installation
+- [x] ZigBee/Installation/APT
+- [x] ZigBee/Installation/Compilation
+- [x] ZigBee/Installation/Docker
+- [x] ZigBee/Installation/OPKG
+- [ ] ZigBee/Library
+- [ ] ZigBee/Topics
