@@ -13,13 +13,13 @@
 - [ ] Automation/Installation/Docker
 - [ ] Automation/Installation/OPKG
 - [ ] Automation/Patterns
-- [ ] Cloud
-- [ ] Cloud/Configuration
-- [ ] Cloud/Installation
-- [ ] Cloud/Installation/APT
-- [ ] Cloud/Installation/Compilation
-- [ ] Cloud/Installation/Docker
-- [ ] Cloud/Installation/OPKG
+- [x] Cloud
+- [x] Cloud/Configuration
+- [x] Cloud/Installation
+- [x] Cloud/Installation/APT
+- [x] Cloud/Installation/Compilation
+- [x] Cloud/Installation/Docker
+- [x] Cloud/Installation/OPKG
 - [x] Common/Exposes
 - [x] Common/Options
 - [x] Common/Topics
