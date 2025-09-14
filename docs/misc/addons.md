@@ -1,6 +1,6 @@
 # Home Assistant Add-ons
 
-Некоторые сервисы ''HOMEd'' можно использовать как [дополнения](https://www.home-assistant.io/addons) для операционной системы [Home Assistant OS](https://www.home-assistant.io/installation/). На данный момент дополнения доступны для следующих сервисов:
+Некоторые сервисы _HOMEd_ можно использовать как [дополнения](https://www.home-assistant.io/addons) для операционной системы [Home Assistant OS](https://www.home-assistant.io/installation/). На данный момент дополнения доступны для следующих сервисов:
 
 - [HOMEd ZigBee](/zigbee/)
 - [HOMEd Custom](/custom/)
