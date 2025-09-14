@@ -1,25 +1,8 @@
 # ZigBee: APT
 
-## Поддерживаемые архитектуры
+Перед установкой сервиса неоходимо добавить в систему APT репозиторий _HOMEd_, если он еще не был добавлен.
 
-- `aarch64`
-- `arm64`
-- `armhf`
-- `amd64`
-
-## Добавление GPG-ключа
-
-```sh
-sudo wget -O /etc/apt/trusted.gpg.d/debian-homed.asc \
-  https://apt.homed.dev/apt.key
-```
-
-## Добавление репозитория
-
-```sh
-echo "deb https://apt.homed.dev/ debian main" | \
-  sudo tee /etc/apt/sources.list.d/homed.list
-```
+Инструкция по добавлению репозитория находится [здесь](/common/apt/).
 
 ## Установка сервиса
 
