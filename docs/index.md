@@ -31,7 +31,7 @@ _HOMEd_ это набор легковесных сервисов для орг�
 
 ## Прочее
 
-- [Home Assistant Add-ons](/other/addons/)
-- [HOMEd Lua](/other/lua/)
+- [Home Assistant Add-ons](/misc/addons/)
+- [HOMEd Lua](/misc/lua/)
 - [Сборник пользовательских рецептов](https://community.homed.dev)
 - [Канал проекта в Telegram](https://t.me/homed_info)
