@@ -39,14 +39,14 @@
 - [ ] Modbus
 - [ ] Modbus/Database
 - [ ] Modbus/Database/Items
-- [ ] Recorder
-- [ ] Recorder/Configuration
-- [ ] Recorder/Installation
-- [ ] Recorder/Installation/APT
-- [ ] Recorder/Installation/Compilation
-- [ ] Recorder/Installation/Docker
-- [ ] Recorder/Installation/OPKG
-- [ ] Web
+- [x] Recorder
+- [x] Recorder/Configuration
+- [x] Recorder/Installation
+- [x] Recorder/Installation/APT
+- [x] Recorder/Installation/Compilation
+- [x] Recorder/Installation/Docker
+- [x] Recorder/Installation/OPKG
+- [x] Web
 - [x] Web/Configuration
 - [x] Web/Installation
 - [x] Web/Installation/APT
