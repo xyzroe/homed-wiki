@@ -47,12 +47,12 @@
 - [ ] Recorder/Installation/Docker
 - [ ] Recorder/Installation/OPKG
 - [ ] Web
-- [ ] Web/Configuration
-- [ ] Web/Installation
-- [ ] Web/Installation/APT
-- [ ] Web/Installation/Compilation
-- [ ] Web/Installation/Docker
-- [ ] Web/Installation/OPKG
+- [x] Web/Configuration
+- [x] Web/Installation
+- [x] Web/Installation/APT
+- [x] Web/Installation/Compilation
+- [x] Web/Installation/Docker
+- [x] Web/Installation/OPKG
 - [x] ZigBee
 - [x] ZigBee/Configuration
 - [ ] ZigBee/Devices
