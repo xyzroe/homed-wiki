@@ -1,18 +1,18 @@
 # Миграция страниц
 
 - [x] Add-ons
-- [ ] Automation
-- [ ] Automation/Configuration
+- [x] Automation
+- [x] Automation/Configuration
 - [ ] Automation/Database
 - [ ] Automation/Database/Actions
 - [ ] Automation/Database/Conditions
 - [ ] Automation/Database/Triggers
-- [ ] Automation/Installation
-- [ ] Automation/Installation/APT
-- [ ] Automation/Installation/Compilation
-- [ ] Automation/Installation/Docker
-- [ ] Automation/Installation/OPKG
-- [ ] Automation/Patterns
+- [x] Automation/Installation
+- [x] Automation/Installation/APT
+- [x] Automation/Installation/Compilation
+- [x] Automation/Installation/Docker
+- [x] Automation/Installation/OPKG
+- [x] Automation/Patterns
 - [x] Cloud
 - [x] Cloud/Configuration
 - [x] Cloud/Installation
