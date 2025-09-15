@@ -1,3 +1,7 @@
+---
+title: 'Modbus: Описание'
+---
+
 # Modbus: Описание
 
 _HOMEd Modbus_ это сервис для обмена данными с устройствами, поддерживающими протокол [Modbus RTU](https://ru.wikipedia.org/wiki/Modbus).

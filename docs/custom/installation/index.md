@@ -1,3 +1,7 @@
+---
+title: 'Custom: Установка'
+---
+
 # Custom: Установка
 
 - [Компиляция](/custom/installation/build/)

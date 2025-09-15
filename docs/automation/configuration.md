@@ -1,3 +1,7 @@
+---
+title: 'Automation: Конфигурация'
+---
+
 # Automation: Конфигурация
 
 Конфигурация _HOMEd Automation_ хранится в файле `/etc/homed/homed-automation.conf`. Пример файла конфигурации:

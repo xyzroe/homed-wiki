@@ -1,3 +1,7 @@
+---
+title: 'Web: Установка'
+---
+
 # Web: Установка
 
 - [Компиляция](/web/installation/build/)

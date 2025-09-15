@@ -1,3 +1,7 @@
+---
+title: 'ZigBee: Установка'
+---
+
 # ZigBee: Установка
 
 - [Компиляция](/zigbee/installation/build/)

@@ -1,3 +1,7 @@
+---
+title: 'Automation: Docker'
+---
+
 # Automation: Docker
 
 ## Поддерживаемые платформы

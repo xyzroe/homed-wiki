@@ -1,3 +1,7 @@
+---
+title: 'Custom: Конфигурация'
+---
+
 # Custom: Конфигурация
 
 Конфигурация _HOMEd Custom_ хранится в файле `/etc/homed/homed-custom.conf`. Пример файла конфигурации:

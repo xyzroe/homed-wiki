@@ -1,3 +1,7 @@
+---
+title: 'Recorder: Установка'
+---
+
 # Recorder: Установка
 
 - [Компиляция](/recorder/installation/build/)

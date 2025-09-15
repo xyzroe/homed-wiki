@@ -1,3 +1,7 @@
+---
+title: 'Recorder: Docker'
+---
+
 # Recorder: Docker
 
 ## Поддерживаемые платформы

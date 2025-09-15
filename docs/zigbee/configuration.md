@@ -1,3 +1,7 @@
+---
+title: 'ZigBee: Конфигурация'
+---
+
 # ZigBee: Конфигурация
 
 Конфигурация _HOMEd ZigBee_ хранится в файле `/etc/homed/homed-zigbee.conf`. Пример файла конфигурации:

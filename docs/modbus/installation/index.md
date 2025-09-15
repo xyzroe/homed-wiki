@@ -1,3 +1,7 @@
+---
+title: 'Modbus: Установка'
+---
+
 # Modbus: Установка
 
 - [Компиляция](/modbus/installation/build/)

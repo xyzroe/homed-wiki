@@ -1,3 +1,7 @@
+---
+title: 'HOMEd'
+---
+
 # HOMEd
 
 !!! quote ""

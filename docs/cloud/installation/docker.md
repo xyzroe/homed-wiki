@@ -1,3 +1,7 @@
+---
+title: 'Cloud: Docker'
+---
+
 # Cloud: Docker
 
 ## Поддерживаемые платформы

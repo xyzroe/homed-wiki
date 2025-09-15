@@ -1,3 +1,7 @@
+---
+title: 'Recorder: Конфигурация'
+---
+
 # Recorder: Конфигурация
 
 Конфигурация _HOMEd Recorder_ хранится в файле <code>/etc/homed/homed-recorder.conf</code>. Пример файла конфигурации:

@@ -1,3 +1,7 @@
+---
+title: 'Modbus: Конфигурация'
+---
+
 # Modbus: Конфигурация
 
 Конфигурация _HOMEd Modbus_ хранится в файле `/etc/homed/homed-modbus.conf`. Пример файла конфигурации:

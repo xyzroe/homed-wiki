@@ -1,3 +1,7 @@
+---
+title: 'Аддоны Home Assistant'
+---
+
 # Аддоны Home Assistant
 
 Некоторые сервисы _HOMEd_ можно использовать как [аддоны](https://www.home-assistant.io/addons) для операционной системы [Home Assistant OS](https://www.home-assistant.io/installation/). На данный момент аддоны доступны для следующих сервисов:

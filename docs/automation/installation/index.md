@@ -1,3 +1,7 @@
+---
+title: 'Automation: Установка'
+---
+
 # Automation: Установка
 
 - [Компиляция](/automation/installation/build/)

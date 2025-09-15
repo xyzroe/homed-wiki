@@ -1,3 +1,7 @@
+---
+title: 'Cloud: Установка'
+---
+
 # Cloud: Установка
 
 - [Компиляция](/cloud/installation/build/)
