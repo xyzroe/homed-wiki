@@ -16,7 +16,7 @@ title: 'Миграция Wiki'
 - [x] Automation/Installation/Compilation
 - [x] Automation/Installation/Docker
 - [x] Automation/Installation/OPKG
-- [x] Automation/Patterns
+- [ ] Automation/Patterns
 - [x] Cloud
 - [x] Cloud/Configuration
 - [x] Cloud/Installation

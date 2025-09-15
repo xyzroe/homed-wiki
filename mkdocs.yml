@@ -19,7 +19,7 @@ markdown_extensions:
   - admonition
   - pymdownx.superfences
 
-  # TODO: remove it
+  # TODO: убрать
   - pymdownx.tasklist:
       custom_checkbox: true
 
@@ -61,37 +61,38 @@ nav:
       - Опции устройств: common/options.md
       - MQTT-топики: common/topics.md
     - Способы установки:
-      - APT Репозиторий: common/apt.md
-      - OPKG Репозиторий: common/opkg.md
+      - APT репозиторий: common/apt.md
+      - OPKG репозиторий: common/opkg.md
       - Аддоны Home Assistant: common/addons.md
     - Для разработчиков:
       - Окружение для компиляции: common/build.md
 
-    # TODO: remove it
+    # TODO: убрать
     - Прочее:
-      - Миграция Wiki: checklist.md
+      - Миграция Wiki: migration.md
 
   - ZigBee:
     - zigbee/index.md
+    - Поддержка устройств: zigbee/devices.md
     - Установка:
       - zigbee/installation/index.md
-      - Компиляция: zigbee/installation/build.md
       - APT: zigbee/installation/apt.md
       - OPKG: zigbee/installation/opkg.md
       - Docker: zigbee/installation/docker.md
+      - Компиляция: zigbee/installation/build.md
     - Конфигурация: zigbee/configuration.md
-    - Поддерживаемые устройства: zigbee/devices.md
     - Библиотека устройств: zigbee/library.md
     - Топики и сообщения: zigbee/topics.md
 
   - Modbus:
     - modbus/index.md
+    - Поддержка устройств: modbus/devices.md
     - Установка:
       - modbus/installation/index.md
-      - Компиляция: modbus/installation/build.md
       - APT: modbus/installation/apt.md
       - OPKG: modbus/installation/opkg.md
       - Docker: modbus/installation/docker.md
+      - Компиляция: modbus/installation/build.md
     - Конфигурация: modbus/configuration.md
     - База даннных:
       - modbus/database/index.md
@@ -101,10 +102,10 @@ nav:
     - custom/index.md
     - Установка:
       - custom/installation/index.md
-      - Компиляция: custom/installation/build.md
       - APT: custom/installation/apt.md
       - OPKG: custom/installation/opkg.md
       - Docker: custom/installation/docker.md
+      - Компиляция: custom/installation/build.md
     - Конфигурация: custom/configuration.md
     - База даннных:
       - custom/database/index.md
@@ -114,43 +115,44 @@ nav:
     - automation/index.md
     - Установка:
       - automation/installation/index.md
-      - Компиляция: automation/installation/build.md
       - APT: automation/installation/apt.md
       - OPKG: automation/installation/opkg.md
       - Docker: automation/installation/docker.md
+      - Компиляция: automation/installation/build.md
     - Конфигурация: automation/configuration.md
     - База даннных:
       - automation/database/index.md
       - Триггеры: automation/database/triggers.md
       - Услловия: automation/database/conditions.md
       - Действия: automation/database/actions.md
+    - Шаблоны: automation/patterns.md
 
   - Recorder:
     - recorder/index.md
     - Установка:
       - recorder/installation/index.md
-      - Компиляция: recorder/installation/build.md
       - APT: recorder/installation/apt.md
       - OPKG: recorder/installation/opkg.md
       - Docker: recorder/installation/docker.md
+      - Компиляция: recorder/installation/build.md
     - Конфигурация: recorder/configuration.md
 
   - Web:
     - web/index.md
     - Установка:
       - web/installation/index.md
-      - Компиляция: web/installation/build.md
       - APT: web/installation/apt.md
       - OPKG: web/installation/opkg.md
       - Docker: web/installation/docker.md
+      - Компиляция: web/installation/build.md
     - Конфигурация: web/configuration.md
 
   - Cloud:
     - cloud/index.md
     - Установка:
       - cloud/installation/index.md
-      - Компиляция: cloud/installation/build.md
       - APT: cloud/installation/apt.md
       - OPKG: cloud/installation/opkg.md
       - Docker: cloud/installation/docker.md
+      - Компиляция: cloud/installation/build.md
     - Конфигурация: cloud/configuration.md

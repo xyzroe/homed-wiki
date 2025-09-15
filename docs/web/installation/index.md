@@ -4,7 +4,7 @@ title: 'Web: Установка'
 
 # Web: Установка
 
-- [Компиляция](/web/installation/build/)
 - [APT](/web/installation/apt/)
 - [OPKG](/web/installation/opkg/)
 - [Docker](/web/installation/docker/)
+- [Компиляция](/web/installation/build/)
