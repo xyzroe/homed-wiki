@@ -25,5 +25,6 @@ cd homed/homed-web
 ```
 
 ```sh
-/my/qt/location/bin/qmake homed-web.pro && make -j $(nproc)
+/my/qt/location/bin/qmake homed-web.pro && \
+  make -j $(nproc)
 ```

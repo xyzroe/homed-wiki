@@ -4,36 +4,36 @@
 
 Данные компиляторы [GCC](ttps://ru.wikipedia.org/wiki/GNU_Compiler_Collection) предназначены для работы в среде `Linux` на процессорах с архитектурой `amd64`.
 
-| Компилятор | Целевая платформа |
-|----------- |-------------------|
-| [gcc-aarch64-none-linux-gnu-10.2.0.tar.xz](https://sandbox.u236.org/toolchain/gcc/gcc-aarch64-none-linux-gnu-10.2.0.tar.xz)                                         | Linux (aarch64) |
-| [gcc-arm-linux-gnuebihf-9.4.0.tar.xz](https://sandbox.u236.org/toolchain/gcc/gcc-arm-linux-gnuebihf-9.4.0.tar.xz)                                                   | Linux (armhf) |
-| [gcc-aarch64_generic-openwrt-linux-8.4.0-musl.tar.xz](https://sandbox.u236.org/toolchain/gcc/gcc-aarch64_generic-openwrt-linux-8.4.0-musl.tar.xz)                   | OpenWRT (aarch64_generic) |
-| [gcc-arm_cortex-a7_neon-vfpv4-openwrt-linux-8.4.0-musl.tar.xz](https://sandbox.u236.org/toolchain/gcc/gcc-arm_cortex-a7_neon-vfpv4-openwrt-linux-8.4.0-musl.tar.xz) | OpenWRT (arm_cortex-a7_neon-vfpv4) |
-| [gcc-arm_cortex-a9_neon-openwrt-linux-8.4.0-musl.tar.xz](https://sandbox.u236.org/toolchain/gcc/gcc-arm_cortex-a9_neon-openwrt-linux-8.4.0-musl.tar.xz)             | OpenWRT (arm_cortex-a9_neon) |
-| [gcc-mips_24kc-openwrt-linux-8.4.0-musl.tar.xz](https://sandbox.u236.org/toolchain/gcc/gcc-mips_24kc-openwrt-linux-8.4.0-musl.tar.xz)                               | OpenWRT (mips_24kc) |
-| [gcc-mipsel_24kc-openwrt-linux-8.4.0-musl.tar.xz](https://sandbox.u236.org/toolchain/gcc/gcc-mipsel_24kc-openwrt-linux-8.4.0-musl.tar.xz)                           | OpenWRT (mipsel_24kc) |
-| [gcc-aarch64-openwrt-linux-gnu-8.4.0.tar.xz](https://sandbox.u236.org/toolchain/gcc/gcc-aarch64-openwrt-linux-gnu-8.4.0.tar.xz)                                     | Entware (aarch64) |
-| [gcc-mips-openwrt-linux-gnu-8.4.0.tar.xz](https://sandbox.u236.org/toolchain/gcc/gcc-mips-openwrt-linux-gnu-8.4.0.tar.xz)                                           | Entware (mips) |
-| [gcc-mipsel-openwrt-linux-gnu-8.4.0.tar.xz](https://sandbox.u236.org/toolchain/gcc/gcc-mipsel-openwrt-linux-gnu-8.4.0.tar.xz)                                       | Entware (mipsel) |
+| Платформа | Целевая aрхитектурв | Компилятор |
+|-----------|---------------------|------------|
+| Linux   | aarch64                  | [gcc-aarch64-none-linux-gnu-10.2.0.tar.xz](https://sandbox.u236.org/toolchain/gcc/gcc-aarch64-none-linux-gnu-10.2.0.tar.xz) |
+| Linux   | armhf                    | [gcc-arm-linux-gnuebihf-9.4.0.tar.xz](https://sandbox.u236.org/toolchain/gcc/gcc-arm-linux-gnuebihf-9.4.0.tar.xz) |
+| OpenWRT | aarch64_generic          | [gcc-aarch64_generic-openwrt-linux-8.4.0-musl.tar.xz](https://sandbox.u236.org/toolchain/gcc/gcc-aarch64_generic-openwrt-linux-8.4.0-musl.tar.xz) |
+| OpenWRT | arm_cortex-a7_neon-vfpv4 | [gcc-arm_cortex-a7_neon-vfpv4-openwrt-linux-8.4.0-musl.tar.xz](https://sandbox.u236.org/toolchain/gcc/gcc-arm_cortex-a7_neon-vfpv4-openwrt-linux-8.4.0-musl.tar.xz) |
+| OpenWRT | arm_cortex-a9_neon       | [gcc-arm_cortex-a9_neon-openwrt-linux-8.4.0-musl.tar.xz](https://sandbox.u236.org/toolchain/gcc/gcc-arm_cortex-a9_neon-openwrt-linux-8.4.0-musl.tar.xz) |
+| OpenWRT | mips_24kc                | [gcc-mips_24kc-openwrt-linux-8.4.0-musl.tar.xz](https://sandbox.u236.org/toolchain/gcc/gcc-mips_24kc-openwrt-linux-8.4.0-musl.tar.xz) |
+| OpenWRT | mipsel_24kc              | [gcc-mipsel_24kc-openwrt-linux-8.4.0-musl.tar.xz](https://sandbox.u236.org/toolchain/gcc/gcc-mipsel_24kc-openwrt-linux-8.4.0-musl.tar.xz) |
+| Entware | aarch64                  | [gcc-aarch64-openwrt-linux-gnu-8.4.0.tar.xz](https://sandbox.u236.org/toolchain/gcc/gcc-aarch64-openwrt-linux-gnu-8.4.0.tar.xz) |
+| Entware | mips                     | [gcc-mips-openwrt-linux-gnu-8.4.0.tar.xz](https://sandbox.u236.org/toolchain/gcc/gcc-mips-openwrt-linux-gnu-8.4.0.tar.xz) |
+| Entware | mipsel                   | [gcc-mipsel-openwrt-linux-gnu-8.4.0.tar.xz](https://sandbox.u236.org/toolchain/gcc/gcc-mipsel-openwrt-linux-gnu-8.4.0.tar.xz) |
 
 ## Готовые сборки _Qt 5_
 
 Данные сборки [Qt5](https://doc.qt.io/qt-5) предназначены для использования в среде `Linux` на процессорах с архитектурой `amd64`.
 
-| Сборка | Целевая платформа |
-|--------|-------------------|
-| [qt-amd64-linux-5.15.4-shared.tar.xz](https://sandbox.u236.org/toolchain/qt/qt-amd64-linux-5.15.4-shared.tar.xz)                                                       | Linux (amd64) |
-| [qt-aarch64-linux-gnu-5.15.4-shared.tar.xz](https://sandbox.u236.org/toolchain/qt/qt-aarch64-linux-gnu-5.15.4-shared.tar.xz)                                           | Linux (aarch64) |
-| [qt-arm-linux-gnueabihf-5.15.4-share.tar.xz](https://sandbox.u236.org/toolchain/qt/qt-arm-linux-gnueabihf-5.15.4-shared.tar.xz)                                        | Linux (armhf) |
-| [qt-aarch64_generic-openwrt-linux-5.15.4-shared.tar.xz](https://sandbox.u236.org/toolchain/qt/qt-aarch64_generic-openwrt-linux-5.15.4-shared.tar.xz)                   | OpenWRT (aarch64_generic) |
-| [qt-arm_cortex-a7_neon-vfpv4-openwrt-linux-5.15.4-shared.tar.xz](https://sandbox.u236.org/toolchain/qt/qt-arm_cortex-a7_neon-vfpv4-openwrt-linux-5.15.4-shared.tar.xz) | OpenWRT (arm_cortex-a7_neon-vfpv4) |
-| [qt-arm_cortex-a9_neon-openwrt-linux-5.15.4-shared.tar.xz](https://sandbox.u236.org/toolchain/qt/qt-arm_cortex-a9_neon-openwrt-linux-5.15.4-shared.tar.xz)             | OpenWRT (arm_cortex-a9_neon) |
-| [qt-mips_24kc-openwrt-linux-5.15.4-shared.tar.xz](https://sandbox.u236.org/toolchain/qt/qt-mips_24kc-openwrt-linux-5.15.4-shared.tar.xz)                               | OpenWRT (mips_24kc) |
-| [qt-mipsel_24kc-openwrt-linux-5.15.4-shared.tar.xz](https://sandbox.u236.org/toolchain/qt/qt-mipsel_24kc-openwrt-linux-5.15.4-shared.tar.xz)                           | OpenWRT (mipsel_24kc) |
-| [qt-aarch64-openwrt-linux-gnu-5.15.4-shared.tar.xz](https://sandbox.u236.org/toolchain/qt/qt-aarch64-openwrt-linux-gnu-5.15.4-shared.tar.xz)                           | Entware (aarch64) |
-| [qt-mips-openwrt-linux-gnu-5.15.4-shared.tar.xz](https://sandbox.u236.org/toolchain/qt/qt-mips-openwrt-linux-gnu-5.15.4-shared.tar.xz)                                 | Entware (mips) |
-| [qt-mipsel-openwrt-linux-gnu-5.15.4-shared.tar.xz](https://sandbox.u236.org/toolchain/qt/qt-mipsel-openwrt-linux-gnu-5.15.4-shared.tar.xz)                             | Entware (mipsel) |
+| Платформа | Целевая aрхитектурв | Сборка |
+|-----------|---------------------|--------|
+| Linux   | amd64                    | [qt-amd64-linux-5.15.4-shared.tar.xz](https://sandbox.u236.org/toolchain/qt/qt-amd64-linux-5.15.4-shared.tar.xz) |
+| Linux   | aarch64                  | [qt-aarch64-linux-gnu-5.15.4-shared.tar.xz](https://sandbox.u236.org/toolchain/qt/qt-aarch64-linux-gnu-5.15.4-shared.tar.xz) |
+| Linux   | armhf                    | [qt-arm-linux-gnueabihf-5.15.4-share.tar.xz](https://sandbox.u236.org/toolchain/qt/qt-arm-linux-gnueabihf-5.15.4-shared.tar.xz) |
+| OpenWRT | aarch64_generic          | [qt-aarch64_generic-openwrt-linux-5.15.4-shared.tar.xz](https://sandbox.u236.org/toolchain/qt/qt-aarch64_generic-openwrt-linux-5.15.4-shared.tar.xz) |
+| OpenWRT | arm_cortex-a7_neon-vfpv4 | [qt-arm_cortex-a7_neon-vfpv4-openwrt-linux-5.15.4-shared.tar.xz](https://sandbox.u236.org/toolchain/qt/qt-arm_cortex-a7_neon-vfpv4-openwrt-linux-5.15.4-shared.tar.xz) |
+| OpenWRT | arm_cortex-a9_neon       | [qt-arm_cortex-a9_neon-openwrt-linux-5.15.4-shared.tar.xz](https://sandbox.u236.org/toolchain/qt/qt-arm_cortex-a9_neon-openwrt-linux-5.15.4-shared.tar.xz) |
+| OpenWRT | mips_24kc                | [qt-mips_24kc-openwrt-linux-5.15.4-shared.tar.xz](https://sandbox.u236.org/toolchain/qt/qt-mips_24kc-openwrt-linux-5.15.4-shared.tar.xz) |
+| OpenWRT | mipsel_24kc              | [qt-mipsel_24kc-openwrt-linux-5.15.4-shared.tar.xz](https://sandbox.u236.org/toolchain/qt/qt-mipsel_24kc-openwrt-linux-5.15.4-shared.tar.xz) |
+| Entware | aarch64                  | [qt-aarch64-openwrt-linux-gnu-5.15.4-shared.tar.xz](https://sandbox.u236.org/toolchain/qt/qt-aarch64-openwrt-linux-gnu-5.15.4-shared.tar.xz) |
+| Entware | mips                     | [qt-mips-openwrt-linux-gnu-5.15.4-shared.tar.xz](https://sandbox.u236.org/toolchain/qt/qt-mips-openwrt-linux-gnu-5.15.4-shared.tar.xz) |
+| Entware | mipsel                   | [qt-mipsel-openwrt-linux-gnu-5.15.4-shared.tar.xz](https://sandbox.u236.org/toolchain/qt/qt-mipsel-openwrt-linux-gnu-5.15.4-shared.tar.xz) |
 
 
 ## Компиляция _Qt 5_
@@ -79,22 +79,23 @@
 |----------|----------|
 | `-shared`    | динамическая линковка, для статической линковки нужно заменить на `-static` |
 | `-prefix`    | путь для установки после компиляции |
-| `-xplatform` | целевая платформа |
+| `-xplatform` | целевая aрхитектурв |
 
 Выбор целевой платформы:
 
-| Значение `-xplatform` | Целевая платформа |
-|----------------------|-------------------|
-| `linux-aarch64-gnu-g++`     | Linux (aarch64) |
-| `linux-arm-gnueabihf-g++`   | Linux (armhf) |
-| `openwrt-aarch64-linux-g++` | OpenWRT (aarch64) |
-| `openwrt-arm-linux-g++`     | OpenWRT (arm) |
-| `openwrt-i486-linux-g++`    | OpenWRT (i486) |
-| `openwrt-mips-linux-g++`.   | OpenWRT (mips) |
-| `openwrt-mipsel-linux-g++`  | OpenWRT (mipsel) |
-| `entware-aarch64-linux-g++` | Entware (aarch64) |
-| `entware-mips-linux-g++`    | Entware (mips) |
-| `entware-mipsel-linux-g++`  | Entware (mipsel) |
+| Платформа | Целевая aрхитектурв | Значение `-xplatform` |
+|-----------|---------------------|-----------------------|
+| Linux   | aarch64 | `linux-aarch64-gnu-g++` |
+| Linux   | armhf   | `linux-arm-gnueabihf-g++` |
+| OpenWRT | aarch64 | `openwrt-aarch64-linux-g++` |
+| OpenWRT | arm.    | `openwrt-arm-linux-g++` |
+| OpenWRT | i486    | `openwrt-i486-linux-g++` |
+| OpenWRT | mips    | `openwrt-mips-linux-g++` |
+| OpenWRT | mipsel  | `openwrt-mipsel-linux-g++` |
+| Entware | aarch64 | `entware-aarch64-linux-g++` |
+| Entware | mips    | `entware-mips-linux-g++` |
+| Entware | mipsel  |`entware-mipsel-linux-g++` |
+| ... |
 
 ### Компиляция и установка:
 

@@ -25,5 +25,6 @@ cd homed/homed-zigbee
 ```
 
 ```sh
-/my/qt/location/bin/qmake homed-zigbee.pro && make -j $(nproc)
+/my/qt/location/bin/qmake homed-zigbee.pro && \
+  make -j $(nproc)
 ```

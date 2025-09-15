@@ -25,5 +25,6 @@ cd homed/homed-recorder
 ```
 
 ```sh
-/my/qt/location/bin/qmake homed-recorder.pro && make -j $(nproc)
+/my/qt/location/bin/qmake homed-recorder.pro && \
+  make -j $(nproc)
 ```

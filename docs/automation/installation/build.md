@@ -25,5 +25,6 @@ cd homed/homed-automation
 ```
 
 ```sh
-/my/qt/location/bin/qmake homed-automation.pro && make -j $(nproc)
+/my/qt/location/bin/qmake homed-automation.pro && \
+  make -j $(nproc)
 ```

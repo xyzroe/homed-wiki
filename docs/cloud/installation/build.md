@@ -25,5 +25,6 @@ cd homed/homed-cloud
 ```
 
 ```sh
-/my/qt/location/bin/qmake homed-cloud.pro && make -j $(nproc)
+/my/qt/location/bin/qmake homed-cloud.pro && \
+  make -j $(nproc)
 ```
