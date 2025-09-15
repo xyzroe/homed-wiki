@@ -1,6 +1,6 @@
 # Recorder: Установка
 
-- [Компиляция исходного кода](/recorder/installation/build/)
-- [APT репозиторий](/recorder/installation/apt/)
-- [OPKG репозиторий](/recorder/installation/opkg/)
+- [Компиляция](/recorder/installation/build/)
+- [APT](/recorder/installation/apt/)
+- [OPKG](/recorder/installation/opkg/)
 - [Docker](/recorder/installation/docker/)

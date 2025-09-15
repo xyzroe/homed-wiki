@@ -1,6 +1,6 @@
 # Custom: Установка
 
-- [Компиляция исходного кода](/custom/installation/build/)
-- [APT репозиторий](/custom/installation/apt/)
-- [OPKG репозиторий](/custom/installation/opkg/)
+- [Компиляция](/custom/installation/build/)
+- [APT](/custom/installation/apt/)
+- [OPKG](/custom/installation/opkg/)
 - [Docker](/custom/installation/docker/)

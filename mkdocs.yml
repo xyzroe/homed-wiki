@@ -1,5 +1,16 @@
 site_name: HOMEd Wiki 2.0
-repo_url: https://github.com/u236/homed-docs/
+
+repo_name: u236/homed-docs
+repo_url: https://github.com/u236/homed-docs
+
+extra:
+  social:
+    - icon: fontawesome/solid/comment
+      link: https://community.homed.dev
+    - icon: fontawesome/brands/github
+      link: https://github.com/u236
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/homed_info
 
 extra_css:
   - /assets/css/extra.css
@@ -7,6 +18,8 @@ extra_css:
 markdown_extensions:
   - admonition
   - pymdownx.superfences
+
+  # TODO: remove it
   - pymdownx.tasklist:
       custom_checkbox: true
 
@@ -14,28 +27,130 @@ theme:
 
   name: material
   logo: /assets/images/homed.svg
+  language: ru
+
+  features:
+    - content.action.edit
+    - content.action.view
+    - content.code.copy
+    - navigation.expand
+    - navigation.indexes
+    - navigation.sections
+    - navigation.tabs
 
   palette:
-
-    - media: "(prefers-color-scheme)"
-      primary: black
-      toggle:
-        icon: material/brightness-auto
-        name: Switch to light mode
 
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: black
       toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
+        icon: material/weather-sunny
 
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: black
       toggle:
-        icon: material/brightness-4
-        name: Switch to system preference
+        icon: material/weather-night
 
-  features:
-    - content.code.copy
+nav:
+
+  - HOMEd:
+    - index.md
+    - Общие сведения:
+      - Способности устройств: common/exposes.md
+      - Опции устройств: common/options.md
+      - MQTT-топики: common/topics.md
+    - Способы установки:
+      - APT Репозиторий: common/apt.md
+      - OPKG Репозиторий: common/opkg.md
+      - Аддоны Home Assistant: common/addons.md
+    - Для разработчиков:
+      - Окружение для компиляции: common/build.md
+
+    # TODO: remove it
+    - Прочее:
+      - Миграция Wiki: checklist.md
+
+  - ZigBee:
+    - zigbee/index.md
+    - Установка:
+      - zigbee/installation/index.md
+      - Компиляция: zigbee/installation/build.md
+      - APT: zigbee/installation/apt.md
+      - OPKG: zigbee/installation/opkg.md
+      - Docker: zigbee/installation/docker.md
+    - Конфигурация: zigbee/configuration.md
+    - Поддерживаемые устройства: zigbee/devices.md
+    - Библиотека устройств: zigbee/library.md
+    - Топики и сообщения: zigbee/topics.md
+
+  - Modbus:
+    - modbus/index.md
+    - Установка:
+      - modbus/installation/index.md
+      - Компиляция: modbus/installation/build.md
+      - APT: modbus/installation/apt.md
+      - OPKG: modbus/installation/opkg.md
+      - Docker: modbus/installation/docker.md
+    - Конфигурация: modbus/configuration.md
+    - База даннных:
+      - modbus/database/index.md
+      - Карта регистров: modbus/database/items.md
+
+  - Custom:
+    - custom/index.md
+    - Установка:
+      - custom/installation/index.md
+      - Компиляция: custom/installation/build.md
+      - APT: custom/installation/apt.md
+      - OPKG: custom/installation/opkg.md
+      - Docker: custom/installation/docker.md
+    - Конфигурация: custom/configuration.md
+    - База даннных:
+      - custom/database/index.md
+      - Биндинги: custom/database/bindings.md
+
+  - Automation:
+    - automation/index.md
+    - Установка:
+      - automation/installation/index.md
+      - Компиляция: automation/installation/build.md
+      - APT: automation/installation/apt.md
+      - OPKG: automation/installation/opkg.md
+      - Docker: automation/installation/docker.md
+    - Конфигурация: automation/configuration.md
+    - База даннных:
+      - automation/database/index.md
+      - Триггеры: automation/database/triggers.md
+      - Услловия: automation/database/conditions.md
+      - Действия: automation/database/actions.md
+
+  - Recorder:
+    - recorder/index.md
+    - Установка:
+      - recorder/installation/index.md
+      - Компиляция: recorder/installation/build.md
+      - APT: recorder/installation/apt.md
+      - OPKG: recorder/installation/opkg.md
+      - Docker: recorder/installation/docker.md
+    - Конфигурация: recorder/configuration.md
+
+  - Web:
+    - web/index.md
+    - Установка:
+      - web/installation/index.md
+      - Компиляция: web/installation/build.md
+      - APT: web/installation/apt.md
+      - OPKG: web/installation/opkg.md
+      - Docker: web/installation/docker.md
+    - Конфигурация: web/configuration.md
+
+  - Cloud:
+    - cloud/index.md
+    - Установка:
+      - cloud/installation/index.md
+      - Компиляция: cloud/installation/build.md
+      - APT: cloud/installation/apt.md
+      - OPKG: cloud/installation/opkg.md
+      - Docker: cloud/installation/docker.md
+    - Конфигурация: cloud/configuration.md

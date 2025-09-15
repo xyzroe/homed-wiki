@@ -6,11 +6,11 @@
 
 _HOMEd Web_ является самостоятельным HTTP-сервером, предоставляющим доступ к веб-интерфейсу для настройки управления другими службами:
 
-- [HOMEd ZigBee](/zigbee/)
-- [HOMEd Modbus](/modbus/)
-- [HOMEd Custom](/custom/)
-- [HOMEd Automation](/automation/)
-- [HOMEd Recorder](/recorder/)
+- [ZigBee](/zigbee/)
+- [Modbus](/modbus/)
+- [Custom](/custom/)
+- [Automation](/automation/)
+- [Recorder](/recorder/)
 
 ## Дашборды
 

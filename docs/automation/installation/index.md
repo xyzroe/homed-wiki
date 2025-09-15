@@ -1,6 +1,6 @@
 # Automation: Установка
 
-- [Компиляция исходного кода](/automation/installation/build/)
-- [APT репозиторий](/automation/installation/apt/)
-- [OPKG репозиторий](/automation/installation/opkg/)
+- [Компиляция](/automation/installation/build/)
+- [APT](/automation/installation/apt/)
+- [OPKG](/automation/installation/opkg/)
 - [Docker](/automation/installation/docker/)

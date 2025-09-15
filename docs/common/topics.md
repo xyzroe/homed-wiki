@@ -14,7 +14,7 @@
 
 ## Топики сервисов
 
-### service
+### `service`
 
 ```
 {prefix}/service/{service}[/instance]
@@ -24,7 +24,7 @@
 
 Топики публикуются с флагом __retain__.
 
-### status
+### `status`
 
 ```
 {prefix}/status/{service}[/instance]
@@ -34,7 +34,7 @@
 
 Топики публикуются с флагом __retain__.
 
-### command
+### `command`
 
 ```
 {prefix}/command/{service}[/instance]
@@ -46,7 +46,7 @@
 
 ## Топики устройств
 
-### device
+### `device`
 
 ```
 {prefix}/device/{service}[/instance]/{deviceId}
@@ -56,7 +56,7 @@
 
 Топики публикуются с флагом __retain__.
 
-### expose
+### `expose`
 
 ```
 {prefix}/expose/{service}[/instance]/{deviceId}
@@ -66,7 +66,7 @@
 
 Топики публикуются с флагом __retain__.
 
-### fd _- from device_
+### `fd` _- from device_
 
 ```
 {prefix}/fd/{service}[/instance]/{deviceId}[/endpointId]
@@ -76,7 +76,7 @@
 
 Топики публикуются _без_ флага __retain__.
 
-### td _- to device_
+### `td` _- to device_
 
 ```
 {prefix}/td/{service}[/instance]/{deviceId}[/endpointId]
@@ -88,10 +88,10 @@
 
 ## Специальные топики
 
-### recorder
+### `recorder`
 
 ```
 {prefix}/recorder
 ```
 
-Топик, в который [рекордер](/recorder/) публикует данные для построения графиков. Топик публикуется _без_ флага __retain__.
+Топик, в который [рекордер](/recorder/) публикует данные для построения графиков. Публикуется _без_ флага __retain__.

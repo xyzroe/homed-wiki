@@ -1,4 +1,4 @@
-# Миграция страниц
+# Миграция Wiki
 
 - [x] Add-ons
 - [x] Automation

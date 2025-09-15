@@ -1,6 +1,6 @@
 # Cloud: Установка
 
-- [Компиляция исходного кода](/cloud/installation/build/)
-- [APT репозиторий](/cloud/installation/apt/)
-- [OPKG репозиторий](/cloud/installation/opkg/)
+- [Компиляция](/cloud/installation/build/)
+- [APT](/cloud/installation/apt/)
+- [OPKG](/cloud/installation/opkg/)
 - [Docker](/cloud/installation/docker/)

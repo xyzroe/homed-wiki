@@ -1,6 +1,6 @@
 # Web: Установка
 
-- [Компиляция исходного кода](/web/installation/build/)
-- [APT репозиторий](/web/installation/apt/)
-- [OPKG репозиторий](/web/installation/opkg/)
+- [Компиляция](/web/installation/build/)
+- [APT](/web/installation/apt/)
+- [OPKG](/web/installation/opkg/)
 - [Docker](/web/installation/docker/)

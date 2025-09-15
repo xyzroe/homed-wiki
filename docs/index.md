@@ -12,28 +12,37 @@ _HOMEd_ это набор маленьких и быстрых сервисов 
 
 ## Сервисы
 
-- [HOMEd ZigBee](/zigbee/)
-- [HOMEd Modbus](/modbus/)
-- [HOMEd Custom](/custom/)
-- [HOMEd Automation](/automation/)
-- [HOMEd Recorder](/recorder/)
-- [HOMEd Web](/web/)
-- [HOMEd Cloud](/cloud/)
+- [ZigBee](/zigbee/)
+- [Modbus](/modbus/)
+- [Custom](/custom/)
+- [Automation](/automation/)
+- [Recorder](/recorder/)
+- [Web](/web/)
+- [Cloud](/cloud/)
 
 ## Общие сведения
 
-- [Структура MQTT-топиков](/common/topics/)
 - [Способности устройств](/common/exposes/)
 - [Опции устройств](/common/options/)
+- [MQTT-топики](/common/topics/)
 
-## Оборудование
+## Способы установки
 
-- [HOMEd Gateway Nano](/hardware/nano/)
-- [HOMEd Gateway Pico](/hardware/pico/)
+- [APT Репозиторий](/common/apt/)
+- [OPKG Репозиторий](/common/addons/)
+- [Аддоны Home Assistant](/common/addons/)
 
-## Прочее
+## Для разработчиков
 
-- [Home Assistant Add-ons](/misc/addons/)
-- [HOMEd Lua](/misc/lua/)
+- [Окружение для компиляции](/common/build/)
+
+## Полезнные ссылки
+
 - [Сборник пользовательских рецептов](https://community.homed.dev)
+- [Страница разработчика на GitHub](https://github.com/u236)
 - [Канал проекта в Telegram](https://t.me/homed_info)
+
+<!-- - [HOMEd Gateway Nano](/hardware/nano/) -->
+<!-- - [HOMEd Gateway Pico](/hardware/pico/) -->
+<!-- - [HOMEd Lua](/misc/lua/) -->
+
