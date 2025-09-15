@@ -36,9 +36,15 @@
 - [ ] Hardware/HOMEd Gateway Nano
 - [ ] Hardware/HOMEd Gateway Pico
 - [ ] Lua
-- [ ] Modbus
+- [x] Modbus
+- [x] Modbus/Configuration
 - [ ] Modbus/Database
 - [ ] Modbus/Database/Items
+- [x] Modbus/Installation
+- [x] Modbus/Installation/APT
+- [x] Modbus/Installation/Compilation
+- [x] Modbus/Installation/Docker
+- [x] Modbus/Installation/OPKG
 - [x] Recorder
 - [x] Recorder/Configuration
 - [x] Recorder/Installation
