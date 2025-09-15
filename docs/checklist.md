@@ -23,15 +23,15 @@
 - [x] Common/Exposes
 - [x] Common/Options
 - [x] Common/Topics
-- [ ] Custom
-- [ ] Custom/Configuration
+- [x] Custom
+- [x] Custom/Configuration
 - [ ] Custom/Database
 - [ ] Custom/Database/Bindings
-- [ ] Custom/Installation
-- [ ] Custom/Installation/APT
-- [ ] Custom/Installation/Compilation
-- [ ] Custom/Installation/Docker
-- [ ] Custom/Installation/OPKG
+- [x] Custom/Installation
+- [x] Custom/Installation/APT
+- [x] Custom/Installation/Compilation
+- [x] Custom/Installation/Docker
+- [x] Custom/Installation/OPKG
 - [x] HOMEd
 - [ ] Hardware/HOMEd Gateway Nano
 - [ ] Hardware/HOMEd Gateway Pico
