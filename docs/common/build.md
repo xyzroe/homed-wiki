@@ -38,7 +38,7 @@
 
 ## Компиляция _Qt 5_
 
-Минимальный набор исходников Qt 5 для компиляции сервисов _HOMEd_, собранный из официального пакета `qt-everywhere-opensource-src-5.15.4.tar.xz`, включающий в себя модуль [qtmqtt](https://github.com/qt/qtmqtt) и несколько важных исправлений:
+Минимальный набор исходников _Qt 5_ для компиляции сервисов _HOMEd_, собранный из официального пакета `qt-everywhere-opensource-src-5.15.4.tar.xz`, включающий в себя модуль [qtmqtt](https://github.com/qt/qtmqtt) и несколько важных исправлений:
 
 > [qt-src-5.15.4-homed-minimal.tar.xz](https://sandbox.u236.org/toolchain/qt-src-5.15.4-homed-minimal.tar.xz)
 
