@@ -7,7 +7,7 @@ title: 'Миграция Wiki'
 - [x] Add-ons
 - [x] Automation
 - [x] Automation/Configuration
-- [ ] Automation/Database
+- [x] Automation/Database
 - [ ] Automation/Database/Actions
 - [ ] Automation/Database/Conditions
 - [ ] Automation/Database/Triggers
@@ -16,7 +16,7 @@ title: 'Миграция Wiki'
 - [x] Automation/Installation/Compilation
 - [x] Automation/Installation/Docker
 - [x] Automation/Installation/OPKG
-- [ ] Automation/Patterns
+- [x] Automation/Patterns
 - [x] Cloud
 - [x] Cloud/Configuration
 - [x] Cloud/Installation
@@ -29,7 +29,7 @@ title: 'Миграция Wiki'
 - [x] Common/Topics
 - [x] Custom
 - [x] Custom/Configuration
-- [ ] Custom/Database
+- [x] Custom/Database
 - [ ] Custom/Database/Bindings
 - [x] Custom/Installation
 - [x] Custom/Installation/APT
@@ -42,8 +42,9 @@ title: 'Миграция Wiki'
 - [ ] Lua
 - [x] Modbus
 - [x] Modbus/Configuration
-- [ ] Modbus/Database
+- [x] Modbus/Database
 - [ ] Modbus/Database/Items
+- [ ] Modbus/Devices
 - [x] Modbus/Installation
 - [x] Modbus/Installation/APT
 - [x] Modbus/Installation/Compilation
