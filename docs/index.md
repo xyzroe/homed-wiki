@@ -12,7 +12,7 @@ _HOMEd_ это набор маленьких и быстрых сервисов 
 
 Все сервисы написаны на С++ с использованием фреймворка [_Qt 5_](https://doc.qt.io/qt-5) и общаются друг с другом посредством MQTT-брокера. Выглядит это приблизительно вот так:
 
-[![HOMEd Diagram](/assets/images/homed-diagram.png)](assets/images/homed-diagram.png)
+[![HOMEd Diagram](/assets/images/service-diagram.png)](/assets/images/service-diagram.png)
 
 ## Сервисы
 

@@ -26,7 +26,8 @@ markdown_extensions:
 theme:
 
   name: material
-  logo: /assets/images/homed.svg
+  favicon: /assets/images/homed.png
+  logo: /assets/images/homed.png
   language: ru
 
   features:
