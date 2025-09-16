@@ -8,9 +8,9 @@ title: 'Миграция Wiki'
 - [x] Automation
 - [x] Automation/Configuration
 - [x] Automation/Database
-- [ ] Automation/Database/Actions
-- [ ] Automation/Database/Conditions
-- [ ] Automation/Database/Triggers
+- [x] Automation/Database/Actions
+- [x] Automation/Database/Conditions
+- [x] Automation/Database/Triggers
 - [x] Automation/Installation
 - [x] Automation/Installation/APT
 - [x] Automation/Installation/Compilation
@@ -30,7 +30,7 @@ title: 'Миграция Wiki'
 - [x] Custom
 - [x] Custom/Configuration
 - [x] Custom/Database
-- [ ] Custom/Database/Bindings
+- [x] Custom/Database/Bindings
 - [x] Custom/Installation
 - [x] Custom/Installation/APT
 - [x] Custom/Installation/Compilation
@@ -43,7 +43,7 @@ title: 'Миграция Wiki'
 - [x] Modbus
 - [x] Modbus/Configuration
 - [x] Modbus/Database
-- [ ] Modbus/Database/Items
+- [x] Modbus/Database/Items
 - [ ] Modbus/Devices
 - [x] Modbus/Installation
 - [x] Modbus/Installation/APT
