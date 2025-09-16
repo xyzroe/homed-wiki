@@ -80,7 +80,7 @@ title: 'Automation: База данных'
 | queued   | не прерывать выполнение, а по окончании выполнить новый набор действий |
 | parallel | не прерывать выполнение и выполнить новый набор действий параллельно с текущим |
 
-[![HOMEd Diagram](/assets/images/automation-mode.png)](assets/images/automation-mode.png)
+[![HOMEd Diagram](/assets/images/automation-mode.png)](/assets/images/automation-mode.png)
 
 ### `name`
 

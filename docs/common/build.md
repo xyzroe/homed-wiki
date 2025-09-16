@@ -49,7 +49,7 @@ title: 'Окружение для компиляции'
 ### Подготовка к компиляции
 
 ```sh
-./configure -v
+./configure -v \
   -opensource \
   -confirm-license \
   -release \

@@ -23,6 +23,12 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
 
+plugins:
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+
 theme:
 
   name: material
