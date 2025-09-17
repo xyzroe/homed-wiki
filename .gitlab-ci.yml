@@ -6,3 +6,5 @@ Deploy:
   script:
   - cp -r docs ${DIR}
   - cp mkdocs.yml ${DIR}
+  only:
+    - master
