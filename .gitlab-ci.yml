@@ -1,0 +1,8 @@
+variables:
+  DIR: /var/www/wiki.homed.dev
+
+Deploy:
+  stage: deploy
+  script:
+  - cp -r docs ${DIR}
+  - cp mkdocs.yml ${DIR}
