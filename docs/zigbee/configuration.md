@@ -201,264 +201,264 @@ port=tcp://192.168.1.23:4832
 
 ## Примеры конфигурации
 
-#### HOMEd Gateway Nano
+=== "HOMEd Gateway Nano"
 
-```ini
-[log]
-enabled=false
-file=/var/log/homed.log
+    ```ini
+    [log]
+    enabled=false
+    file=/var/log/homed.log
 
-[mqtt]
-host=localhost
-port=1883
-prefix=homed
-names=false
+    [mqtt]
+    host=localhost
+    port=1883
+    prefix=homed
+    names=false
 
-[homeassistant]
-enabled=true
-prefix=homeassistant
-status=homeassistant/status
+    [homeassistant]
+    enabled=true
+    prefix=homeassistant
+    status=homeassistant/status
 
-[default]
-discovery=true
-cloud=true
+    [default]
+    discovery=true
+    cloud=true
 
-[device]
-database=/opt/homed-zigbee/database.json
-properties=/opt/homed-zigbee/properties.json
-options=/opt/homed-zigbee/options.json
-external=/opt/homed-zigbee/external
-library=/usr/share/homed-zigbee
+    [device]
+    database=/opt/homed-zigbee/database.json
+    properties=/opt/homed-zigbee/properties.json
+    options=/opt/homed-zigbee/options.json
+    external=/opt/homed-zigbee/external
+    library=/usr/share/homed-zigbee
 
-[gpio]
-status=/sys/class/leds/amber:act/brightness
-blink=/sys/class/leds/blue:zb/brightness
-boot=/sys/class/gpio/zb:boot/value
-reset=/sys/class/gpio/zb:reset/value
+    [gpio]
+    status=/sys/class/leds/amber:act/brightness
+    blink=/sys/class/leds/blue:zb/brightness
+    boot=/sys/class/gpio/zb:boot/value
+    reset=/sys/class/gpio/zb:reset/value
 
-[zigbee]
-adapter=znp
-port=/dev/ttyS0
-baudrate=115200
-panid=
-channel=11
-reset=gpio
-write=true
+    [zigbee]
+    adapter=znp
+    port=/dev/ttyS0
+    baudrate=115200
+    panid=
+    channel=11
+    reset=gpio
+    write=true
 
-[security]
-key=
+    [security]
+    key=
 
-[debug]
-port=false
-adapter=false
-zigbee=false
-```
+    [debug]
+    port=false
+    adapter=false
+    zigbee=false
+    ```
 
-#### HOMEd Gateway Pico
+=== "HOMEd Gateway Pico"
 
-```ini
-[log]
-enabled=false
-file=/var/log/homed.log
+    ```ini
+    [log]
+    enabled=false
+    file=/var/log/homed.log
 
-[mqtt]
-host=localhost
-port=1883
-prefix=homed
-names=false
+    [mqtt]
+    host=localhost
+    port=1883
+    prefix=homed
+    names=false
 
-[homeassistant]
-enabled=true
-prefix=homeassistant
-status=homeassistant/status
+    [homeassistant]
+    enabled=true
+    prefix=homeassistant
+    status=homeassistant/status
 
-[default]
-discovery=true
-cloud=true
+    [default]
+    discovery=true
+    cloud=true
 
-[device]
-database=/opt/homed-zigbee/database.json
-properties=/opt/homed-zigbee/properties.json
-options=/opt/homed-zigbee/options.json
-external=/opt/homed-zigbee/external
-library=/usr/share/homed-zigbee
+    [device]
+    database=/opt/homed-zigbee/database.json
+    properties=/opt/homed-zigbee/properties.json
+    options=/opt/homed-zigbee/options.json
+    external=/opt/homed-zigbee/external
+    library=/usr/share/homed-zigbee
 
-[gpio]
-status=/sys/class/leds/amber:status/brightness
+    [gpio]
+    status=/sys/class/leds/amber:status/brightness
 
-[zigbee]
-adapter=znp
-port=/dev/ttyS2
-baudrate=115200
-panid=
-channel=11
-reset=soft
-write=true
+    [zigbee]
+    adapter=znp
+    port=/dev/ttyS2
+    baudrate=115200
+    panid=
+    channel=11
+    reset=soft
+    write=true
 
-[security]
-key=
+    [security]
+    key=
 
-[debug]
-port=false
-adapter=false
-zigbee=false
-```
+    [debug]
+    port=false
+    adapter=false
+    zigbee=false
+    ```
 
-#### Perenio PEACG01
+=== "Geniatech GTW360"
 
-```ini
-[log]
-enabled=false
-file=/var/log/homed.log
+    ```ini
+    [log]
+    enabled=false
+    file=/var/log/homed.log
 
-[mqtt]
-host=localhost
-port=1883
-prefix=homed
-names=true
+    [mqtt]
+    host=localhost
+    port=1883
+    prefix=homed
+    names=false
 
-[homeassistant]
-enabled=true
-prefix=homeassistant
-status=homeassistant/status
+    [homeassistant]
+    enabled=true
+    prefix=homeassistant
+    status=homeassistant/status
 
-[default]
-discovery=true
-cloud=true
+    [default]
+    discovery=true
+    cloud=true
 
-[device]
-database=/opt/homed-zigbee/database.json
-properties=/opt/homed-zigbee/properties.json
-options=/opt/homed-zigbee/options.json
-external=/opt/homed-zigbee/external
-library=/usr/share/homed-zigbee
+    [device]
+    database=/opt/homed-zigbee/database.json
+    properties=/opt/homed-zigbee/properties.json
+    options=/opt/homed-zigbee/options.json
+    external=/opt/homed-zigbee/external
+    library=/usr/share/homed-zigbee
 
-[gpio]
-status=/sys/class/leds/white:power/brightness
-blink=/sys/class/leds/white:wlan/brightness
-reset=/sys/class/gpio/zigbee:reset/value
+    [gpio]
+    status=/sys/class/leds/amber/brightness
+    boot=/sys/class/gpio/zigbee-boot/value
+    reset=/sys/class/gpio/zigbee-reset/value
 
-[zigbee]
-adapter=ezsp
-port=/dev/ttyUSB0
-baudrate=115200
-panid=
-channel=11
-reset=gpio
-write=true
+    [zigbee]
+    adapter=zboss
+    port=/dev/ttymxc3
+    baudrate=115200
+    panid=
+    channel=11
+    reset=gpio
+    write=true
 
-[security]
-key=
+    [security]
+    key=
 
-[debug]
-port=false
-adapter=false
-zigbee=false
-</syntaxhighlight>
-```
+    [debug]
+    port=false
+    adapter=false
+    zigbee=false
+    ```
 
-#### Xiaomi DGNWG05LM
+=== "Perenio PEACG01"
 
-```ini
-[log]
-enabled=false
-file=/var/log/homed.log
+    ```ini
+    [log]
+    enabled=false
+    file=/var/log/homed.log
 
-[mqtt]
-host=localhost
-port=1883
-prefix=homed
-names=false
+    [mqtt]
+    host=localhost
+    port=1883
+    prefix=homed
+    names=false
 
-[homeassistant]
-enabled=true
-prefix=homeassistant
-status=homeassistant/status
+    [homeassistant]
+    enabled=true
+    prefix=homeassistant
+    status=homeassistant/status
 
-[default]
-discovery=true
-cloud=true
+    [default]
+    discovery=true
+    cloud=true
 
-[device]
-database=/opt/homed-zigbee/database.json
-properties=/opt/homed-zigbee/properties.json
-options=/opt/homed-zigbee/options.json
-external=/opt/homed-zigbee/external
-library=/usr/share/homed-zigbee
+    [device]
+    database=/opt/homed-zigbee/database.json
+    properties=/opt/homed-zigbee/properties.json
+    options=/opt/homed-zigbee/options.json
+    external=/opt/homed-zigbee/external
+    library=/usr/share/homed-zigbee
 
-[gpio]
-boot=40
-reset=41
+    [gpio]
+    status=/sys/class/leds/white:power/brightness
+    blink=/sys/class/leds/white:wlan/brightness
+    reset=/sys/class/gpio/zigbee:reset/value
 
-[zigbee]
-adapter=zigate
-port=/dev/ttymxc1
-baudrate=115200
-panid=
-channel=11
-reset=gpio
-write=true
+    [zigbee]
+    adapter=ezsp
+    port=/dev/ttyUSB0
+    baudrate=115200
+    panid=
+    channel=11
+    reset=gpio
+    write=true
 
-[security]
-key=
+    [security]
+    key=
 
-[debug]
-port=false
-adapter=false
-zigbee=false
-```
+    [debug]
+    port=false
+    adapter=false
+    zigbee=false
+    </syntaxhighlight>
+    ```
 
-#### Geniatech GTW360
+=== "Xiaomi DGNWG05LM"
 
-```ini
-[log]
-enabled=false
-file=/var/log/homed.log
+    ```ini
+    [log]
+    enabled=false
+    file=/var/log/homed.log
 
-[mqtt]
-host=localhost
-port=1883
-prefix=homed
-names=false
+    [mqtt]
+    host=localhost
+    port=1883
+    prefix=homed
+    names=false
 
-[homeassistant]
-enabled=true
-prefix=homeassistant
-status=homeassistant/status
+    [homeassistant]
+    enabled=true
+    prefix=homeassistant
+    status=homeassistant/status
 
-[default]
-discovery=true
-cloud=true
+    [default]
+    discovery=true
+    cloud=true
 
-[device]
-database=/opt/homed-zigbee/database.json
-properties=/opt/homed-zigbee/properties.json
-options=/opt/homed-zigbee/options.json
-external=/opt/homed-zigbee/external
-library=/usr/share/homed-zigbee
+    [device]
+    database=/opt/homed-zigbee/database.json
+    properties=/opt/homed-zigbee/properties.json
+    options=/opt/homed-zigbee/options.json
+    external=/opt/homed-zigbee/external
+    library=/usr/share/homed-zigbee
 
-[gpio]
-status=/sys/class/leds/amber/brightness
-boot=/sys/class/gpio/zigbee-boot/value
-reset=/sys/class/gpio/zigbee-reset/value
+    [gpio]
+    boot=40
+    reset=41
 
-[zigbee]
-adapter=zboss
-port=/dev/ttymxc3
-baudrate=115200
-panid=
-channel=11
-reset=gpio
-write=true
+    [zigbee]
+    adapter=zigate
+    port=/dev/ttymxc1
+    baudrate=115200
+    panid=
+    channel=11
+    reset=gpio
+    write=true
 
-[security]
-key=
+    [security]
+    key=
 
-[debug]
-port=false
-adapter=false
-zigbee=false
-```
+    [debug]
+    port=false
+    adapter=false
+    zigbee=false
+    ```
 
 ## Что дальше?
 

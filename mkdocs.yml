@@ -16,18 +16,22 @@ extra_css:
   - /assets/css/extra.css
 
 markdown_extensions:
+  - attr_list
   - admonition
   - pymdownx.superfences
+
+  - pymdownx.tabbed:
+      alternate_style: true
 
   # TODO: убрать
   - pymdownx.tasklist:
       custom_checkbox: true
 
-plugins:
-  - minify:
-      minify_html: true
-      minify_js: true
-      minify_css: true
+# plugins:
+#   - minify:
+#       minify_html: true
+#       minify_js: true
+#       minify_css: true
 
 theme:
 
@@ -73,7 +77,6 @@ nav:
       - Аддоны Home Assistant: common/addons.md
     - Для разработчиков:
       - Окружение для компиляции: common/build.md
-
     # TODO: убрать
     - Прочее:
       - Миграция Wiki: migration.md
