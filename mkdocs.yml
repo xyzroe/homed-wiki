@@ -119,7 +119,7 @@ nav:
     - База даннных:
       - automation/database/index.md
       - Триггеры: automation/database/triggers.md
-      - Услловия: automation/database/conditions.md
+      - Условия: automation/database/conditions.md
       - Действия: automation/database/actions.md
     - Шаблоны: automation/patterns.md
 
