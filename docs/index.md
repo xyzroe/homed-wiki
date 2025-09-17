@@ -12,7 +12,8 @@ _HOMEd_ это набор маленьких и быстрых сервисов 
 
 Все сервисы написаны на С++ с использованием фреймворка [_Qt 5_](https://doc.qt.io/qt-5) и общаются друг с другом при помощи MQTT-брокера. Выглядит это приблизительно так:
 
-[![Service Diagram](/assets/images/service-diagram.png)](/assets/images/service-diagram.png)
+[![HOMEd Services](/assets/img/diagram/service-light.png#only-light)](/assets/img/diagram/service-light.png)
+[![HOMEd Services](/assets/img/diagram/service-dark.png#only-dark)](/assets/img/diagram/service-dark.png)
 
 ## Сервисы
 
@@ -45,6 +46,7 @@ _HOMEd_ это набор маленьких и быстрых сервисов 
 - [Сборник пользовательских рецептов](https://community.homed.dev)
 - [Страница разработчика на GitHub](https://github.com/u236)
 - [Канал проекта в Telegram](https://t.me/homed_info)
+- [Первая версия этой Wiki](https://mediawiki.homed.dev) - _не обновяется с осени 2025 года_
 
 <!-- - [HOMEd Gateway Nano](/hardware/nano/) -->
 <!-- - [HOMEd Gateway Pico](/hardware/pico/) -->

@@ -1,4 +1,5 @@
-img {
+img,
+.highlight code {
     border-radius: 10px;
 }
 
@@ -8,6 +9,10 @@ li {
 
 [dir=ltr] .md-header__title {
     margin-left: 0;
+}
+
+.md-content {
+    margin-bottom: 40px;
 }
 
 .md-typeset .admonition {

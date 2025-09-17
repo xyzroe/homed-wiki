@@ -71,6 +71,9 @@ title: 'Automation: База данных'
 
 Режим работы в случае повторного срабатывания триггера, когда действия автоматизации еще выполняются.
 
+[![HOMEd Automation](/assets/img/diagram/automation-light.png#only-light)](/assets/img/diagram/automation-light.png)
+[![HOMEd Automation](/assets/img/diagram/automation-dark.png#only-dark)](/assets/img/diagram/automation-dark.png)
+
 Возможные значения:
 
 | Режим | Действие |
@@ -79,8 +82,6 @@ title: 'Automation: База данных'
 | restart  | прервать выполнение и выполнить новый набор действий |
 | queued   | не прерывать выполнение, а по окончании выполнить новый набор действий |
 | parallel | не прерывать выполнение и выполнить новый набор действий параллельно с текущим |
-
-[![HOMEd Diagram](/assets/images/automation-mode.png)](/assets/images/automation-mode.png)
 
 ### `name`
 

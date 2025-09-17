@@ -19,10 +19,8 @@ markdown_extensions:
   - attr_list
   - admonition
   - pymdownx.superfences
-
   - pymdownx.tabbed:
       alternate_style: true
-
   # TODO: убрать
   - pymdownx.tasklist:
       custom_checkbox: true
@@ -36,8 +34,8 @@ markdown_extensions:
 theme:
 
   name: material
-  favicon: /assets/images/homed.png
-  logo: /assets/images/homed.png
+  favicon: /assets/img/favicon.png
+  logo: /assets/img/logo.png
   language: ru
 
   features:
@@ -92,7 +90,7 @@ nav:
       - Компиляция: zigbee/installation/build.md
     - Конфигурация: zigbee/configuration.md
     - Библиотека устройств: zigbee/library.md
-    - Топики и сообщения: zigbee/topics.md
+    - Команды: zigbee/commands.md
 
   - Modbus:
     - modbus/index.md

@@ -6,6 +6,9 @@ title: 'Recorder: Описание'
 
 _HOMEd Recorder_ это сервис для сбора статистических данных, с возможностью построения графиков в [веб-интерфейсе](/web/).
 
+[![Recorder](/assets/img/screenshot/recorder-light.png#only-light)](/assets/img/screenshot/recorder-light.png)
+[![Recorder](/assets/img/screenshot/recorder-dark.png#only-dark)](/assets/img/screenshot/recorder-dark.png)
+
 Для хранения данных используется однофайловая реляционная база данных [SQLite 3](https://www.sqlite.org).
 
 ## Что дальше?
