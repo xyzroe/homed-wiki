@@ -4,7 +4,9 @@ variables:
 Deploy:
   stage: deploy
   script:
+  - rm -rf ${DIR}/*
   - cp -r docs ${DIR}
   - cp mkdocs.yml ${DIR}
+  - python scripts/zigbee.py >> ${DIR}/docs/zigbee/devices.md
   only:
     - master

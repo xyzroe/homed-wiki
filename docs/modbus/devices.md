@@ -1,8 +1,8 @@
 ---
-title: 'Modbus: Поддержка устройтва'
+title: 'Modbus: Поддержка устройтв'
 ---
 
-# Modbus: Поддержка устройтва
+# Modbus: Поддержка устройтв
 
 ![Under Construction](https://cs11.pikabu.ru/post_img/2018/08/16/7/153441516614308402.jpg)
 
