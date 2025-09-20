@@ -10,7 +10,7 @@ _HOMEd ZigBee_ это программный мост между [ZigBee](https:
 
 ## Интеграции
 
-_HOMEd ZigBee_ поддерживает функцию [Home Assistant MQTT Discovery](https://www.home-assistant.io/integrations/mqtt/#mqtt-discovery). Это значит, что при добавлении устройств в сеть они могут быть автоматически "проброшены" в _Home Assistant_, если соответствующий параметр включен в [конфигурации](/zigbee/configuration/).
+_HOMEd ZigBee_ поддерживает функцию [Home Assistant MQTT Discovery](https://www.home-assistant.io/integrations/mqtt/#mqtt-discovery). Это значит, что при добавлении устройств в сеть они могут быть автоматически "проброшены" в _Home Assistant_, если соответствующий параметр включен в [конфигурации](/zigbee/configuration/#homeassistant).
 
 Так же устройства могут быть "проброшены" в [Умный дом Яндекса](https://alice.yandex.ru/smart-home) при помощи сервиса [HOMEd Cloud](/cloud/).
 
