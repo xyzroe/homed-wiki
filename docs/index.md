@@ -34,7 +34,7 @@ _HOMEd_ это набор маленьких и быстрых сервисов 
 ## Способы установки
 
 - [APT репозиторий](/common/apt/)
-- [OPKG репозиторий](/common/addons/)
+- [OPKG репозиторий](/common/opkg/)
 - [Аддоны Home Assistant](/common/addons/)
 
 ## Для разработчиков
