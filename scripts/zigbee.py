@@ -1,7 +1,7 @@
 import requests
 
-fileURL = "https://raw.githubusercontent.com/u236/homed-service-zigbee/refs/heads/master/deploy/data/usr/share/homed-zigbee/"
-linkURL = "https://github.com/u236/homed-service-zigbee/blob/master/deploy/data/usr/share/homed-zigbee/"
+fileURL = "https://raw.githubusercontent.com/u236/homed-service-zigbee/refs/heads/master/deploy/data/usr/share/homed-zigbee"
+linkURL = "https://github.com/u236/homed-service-zigbee/blob/master/deploy/data/usr/share/homed-zigbee"
 
 files = {
     "Aqara/Xiaomi": "lumi",
