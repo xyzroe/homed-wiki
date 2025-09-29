@@ -50,7 +50,7 @@ port=/dev/ttyUSB0
 panid=
 channel=11
 reset=soft
-write=false
+write=true
 
 [security]
 key=
