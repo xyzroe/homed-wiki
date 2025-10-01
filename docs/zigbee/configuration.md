@@ -197,8 +197,8 @@ port=tcp://192.168.1.23:4832
 
 ```
 ...
-2025.09.29 11:52:58.237 (wrn) zigbee:     Adapter configuration can't be changed, write protection enabled
-2025.09.29 11:52:58.237 (wrn) zigbee:     Coordinator startup failed
+2025.09.29 11:52:58.237 (wrn) zigbee: Adapter configuration can't be changed, write protection enabled
+2025.09.29 11:52:58.237 (wrn) zigbee: Coordinator startup failed
 ...
 ```
 
