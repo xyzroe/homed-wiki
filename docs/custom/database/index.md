@@ -78,7 +78,7 @@ title: 'Custom: База данных'
 
 ### `discovery`
 
-Включение/выключение функуии [Home Assistant MQTT Discovery](https://www.home-assistant.io/integrations/mqtt/#mqtt-discovery) для устройства.
+Включение/выключение функции [Home Assistant MQTT Discovery](https://www.home-assistant.io/integrations/mqtt/#mqtt-discovery) для устройства.
 
 ### `exposes`
 
