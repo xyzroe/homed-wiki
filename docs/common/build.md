@@ -92,7 +92,7 @@ title: 'Окружение для компиляции'
 | Linux   | aarch64 | `linux-aarch64-gnu-g++` |
 | Linux   | armhf   | `linux-arm-gnueabihf-g++` |
 | OpenWRT | aarch64 | `openwrt-aarch64-linux-g++` |
-| OpenWRT | arm.    | `openwrt-arm-linux-g++` |
+| OpenWRT | arm     | `openwrt-arm-linux-g++` |
 | OpenWRT | i486    | `openwrt-i486-linux-g++` |
 | OpenWRT | mips    | `openwrt-mips-linux-g++` |
 | OpenWRT | mipsel  | `openwrt-mipsel-linux-g++` |
