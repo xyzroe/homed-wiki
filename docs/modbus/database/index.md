@@ -102,8 +102,8 @@ title: 'Modbus: База данных'
 
 ### `items`
 
-Объект с [картой регистров](modbus/database/items) устройства. Актуально только для [устройств](/modbus/devices/) типа `"customController"`.
+Объект с [картой регистров](modbus/database/items) устройства. Актуально только для [устройств](/modbus/devices/) типа `customController`.
 
 ### `options`
 
-Объект с [опциями](common/options) устройства. Актуально только для [устройств](/modbus/devices/) типа `"customController"`.
+Объект с [опциями](common/options) устройства. Актуально только для [устройств](/modbus/devices/) типа `customController`.
